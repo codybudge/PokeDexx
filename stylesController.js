@@ -1,9 +1,0 @@
-function StylesController(){
-//Private
-
-
-
-
-//public
-
-}
