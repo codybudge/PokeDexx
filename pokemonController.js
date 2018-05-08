@@ -1,0 +1,11 @@
+function PokemonController(){
+//Private
+
+
+
+
+
+//public
+
+
+}

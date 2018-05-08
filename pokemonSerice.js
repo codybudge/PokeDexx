@@ -1,0 +1,10 @@
+function PokemonService(){
+//Praivate
+
+
+
+
+
+//public
+
+}
