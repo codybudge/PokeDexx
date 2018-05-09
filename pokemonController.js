@@ -4,13 +4,15 @@ function PokemonController() {
 
     function drawPokemon(arr) {
         var template = "<ul>";
-        for (let i = 0; i < arr.length; i++) {
-            const pokemon = arr[i];
+        debugger
+        for (let i = 0; i < arr.results.length; i++) {
+            const pokemon = arr.results[i];
             template += `
             <li onclick="#">${pokemon.name}</li>
         `;   
     }
     template +="</ul>";
+    console.log(template)
     document.getElementById('pokemon').innerHTML = template;
     }
     
